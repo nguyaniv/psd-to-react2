@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
 
- class _Header extends Component {
+class _Header extends Component {
 
     render() {
-const {modal} = this.props.modal
+        const { modal } = this.props.modal
         return (
             <header>
-                <div className= 'sub-container'>
-
+                <div className='sub-container'>
                     <div className="text-container">
                         <h1>Artica</h1>
                         <p>----------------------------------------<span>o</span>----------------------------------------</p>
@@ -29,7 +28,7 @@ const mapStateToProps = state => ({
 
 });
 const mapDispatchToProps = {
-    
+
 };
 
 export const Header = connect(mapStateToProps, mapDispatchToProps)(_Header);

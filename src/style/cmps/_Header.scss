@@ -39,13 +39,14 @@ header {
     }
     p:nth-of-type(1) {
       letter-spacing: -3px;
-      font-size: 20px;
+      font-size: 1.3rem;
       width: 100%;
       color: #fff;
+      text-align: center;
     }
     p:nth-of-type(2) {
       color: #fff;
-      font-family: 'Lato', sans-serif;
+      font-family: Lato;
       text-align: center;
     }
 
