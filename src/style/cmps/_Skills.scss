@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     width: 800px;
     height: 130px;
 
@@ -51,7 +51,7 @@
       padding: 10px;
       border: 1px solid #ffffff;
       color: #ffffff;
-      font-family: Lato;
+      font-family: 'Lato', sans-serif;
       width: 150px;
       background-color: #3d506f;
       cursor: pointer;
@@ -62,7 +62,7 @@
   }
   .skills-graph {
     width: 600px;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
