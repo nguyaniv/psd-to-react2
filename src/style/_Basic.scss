@@ -8,15 +8,10 @@ h1,h2,h3,h4,h5,h6,p,li,body{
 
 body {
 overflow-x: hidden;
--webkit-text-size-adjust: none;
 
 }
-textarea,
-input.text,
-input[type="text"],
-input[type="button"],
-input[type="submit"],
-.input-checkbox {
--webkit-appearance: none;
-border-radius: 0;
-}
+
+html {
+    font: -apple-system-body;
+  }
+  
