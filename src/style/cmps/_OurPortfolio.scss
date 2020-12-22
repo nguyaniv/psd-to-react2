@@ -108,3 +108,15 @@
     }
   }
 }
+
+@supports (font: -apple-system-body) {
+  @media screen and (max-width: 480px) {
+    .our-portfolio {
+      .text {
+        p:nth-of-type(1) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
