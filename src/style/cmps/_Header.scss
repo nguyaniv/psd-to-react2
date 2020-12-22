@@ -71,9 +71,9 @@ header {
     background-image: url("../imgs/header480.jpg");
     background-position: right;
     background-repeat: no-repeat;
-    .sub-container{
-      .text-container{
-        p:nth-of-type(1){
+    .sub-container {
+      .text-container {
+        p:nth-of-type(1) {
           width: 100%;
           font-size: 20px !important;
         }
@@ -83,8 +83,20 @@ header {
 }
 
 @supports (font: -apple-system-body) {
-  html {
-    font: -apple-system-body;
-    font-size: 0.8rem;
+  @media screen and (max-width: 480px) {
+    header {
+      background-image: url("../imgs/header480.jpg");
+      background-position: right;
+      background-repeat: no-repeat;
+      .sub-container {
+        .text-container {
+          p:nth-of-type(1) {
+            width: 100%;
+            font-size: 16px !important;
+            color: #00c7fc;
+          }
+        }
+      }
+    }
   }
 }
