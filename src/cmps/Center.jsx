@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
-import clock from '../style/icons/mini_clock.png'
-import people from '../style/icons/mini_people.png'
-import tool from '../style/icons/mini_tool.png'
+import React, { Component } from 'react';
+import clock from '../style/icons/mini_clock.png';
+import people from '../style/icons/mini_people.png';
+import tool from '../style/icons/mini_tool.png';
+import work from '../style/imgs/work.jpg';
 export default class Section3 extends Component {
     render() {
         return (
             <section className="center-section">
                 <div className="container">
-                    <img src="" alt="" />
+                    <img src={work} alt="" />
                     <div className="content">
                         <h3>LOREM IPSUM IMAGE</h3>
                         <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.
