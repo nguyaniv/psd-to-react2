@@ -60,6 +60,8 @@ export default class ContactUs extends Component {
                 </div>
                 <button>Send Message</button>
 
+                <h1>Artica</h1>
+                <p>© Copyright 2013 Artica. All Rights Reserved.</p>
             </section>
         )
     }
