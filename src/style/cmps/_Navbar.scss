@@ -8,7 +8,7 @@ nav {
   justify-content: center;
   align-items: center;
   .container {
-    width: 900px;
+    width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,5 +24,12 @@ nav {
       margin-right: 8px;
       cursor: pointer;
     }
+  }
+}
+
+
+@media screen and (max-width: 1080px) {
+  .container {
+    width: 900px;
   }
 }
